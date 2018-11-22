@@ -1,0 +1,16 @@
+C:\Projects\LearnNeuroNet1\LearnNeuroNet1\bin\Debug\LearnNeuroNet1.exe.config
+C:\Projects\LearnNeuroNet1\LearnNeuroNet1\bin\Debug\LearnNeuroNet1.exe
+C:\Projects\LearnNeuroNet1\LearnNeuroNet1\bin\Debug\LearnNeuroNet1.pdb
+C:\Projects\LearnNeuroNet1\LearnNeuroNet1\bin\Debug\MathNet.Numerics.dll
+C:\Projects\LearnNeuroNet1\LearnNeuroNet1\bin\Debug\MathNet.Numerics.xml
+C:\Projects\LearnNeuroNet1\LearnNeuroNet1\obj\Debug\LearnNeuroNet1.csprojResolveAssemblyReference.cache
+C:\Projects\LearnNeuroNet1\LearnNeuroNet1\obj\Debug\View\MainWindow.g.cs
+C:\Projects\LearnNeuroNet1\LearnNeuroNet1\obj\Debug\View\App.g.cs
+C:\Projects\LearnNeuroNet1\LearnNeuroNet1\obj\Debug\LearnNeuroNet1_MarkupCompile.cache
+C:\Projects\LearnNeuroNet1\LearnNeuroNet1\obj\Debug\LearnNeuroNet1_MarkupCompile.lref
+C:\Projects\LearnNeuroNet1\LearnNeuroNet1\obj\Debug\View\MainWindow.baml
+C:\Projects\LearnNeuroNet1\LearnNeuroNet1\obj\Debug\LearnNeuroNet1.g.resources
+C:\Projects\LearnNeuroNet1\LearnNeuroNet1\obj\Debug\LearnNeuroNet1.Properties.Resources.resources
+C:\Projects\LearnNeuroNet1\LearnNeuroNet1\obj\Debug\LearnNeuroNet1.csproj.GenerateResource.Cache
+C:\Projects\LearnNeuroNet1\LearnNeuroNet1\obj\Debug\LearnNeuroNet1.exe
+C:\Projects\LearnNeuroNet1\LearnNeuroNet1\obj\Debug\LearnNeuroNet1.pdb

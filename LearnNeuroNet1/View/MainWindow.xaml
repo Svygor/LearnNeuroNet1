@@ -1,0 +1,18 @@
+﻿<Window x:Class="LearnNeuroNet1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LearnNeuroNet1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="200" Width="300">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="StartLearning" Content="Start Learning" HorizontalAlignment="Right" Margin="0,10,10,0" VerticalAlignment="Top" Width="272" Click="StartLearning_Click" Height="70"/>
+        <Button x:Name="StartTesting" Content="Start Testing" HorizontalAlignment="Right" Margin="0,85,10,0" VerticalAlignment="Top" Width="150" Click="StartTesting_Click" Height="74"/>
+        <TextBox x:Name="Num1" HorizontalAlignment="Left" Height="34" Margin="10,85,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" FontSize="24"/>
+        <TextBox x:Name="Num2" HorizontalAlignment="Left" Height="34" Margin="10,125,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" FontSize="24"/>
+    </Grid>
+</Window>
