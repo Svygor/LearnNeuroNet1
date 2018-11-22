@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LearnNeuroNet1.Model
 {
@@ -44,7 +41,7 @@ namespace LearnNeuroNet1.Model
         {
             double output = 0;
             double error = 0;
-            double[] adjustment = new double[inputs[0].Length];
+            double adjustment = 0;
 
             //Обучение состоит из определенного количества поколений
             for (int i = 0; i < generations; i++)
@@ -59,7 +56,8 @@ namespace LearnNeuroNet1.Model
                     //скорректировать веса в соответствии с ошибкой
                     for (int k = 0; k < inputs[j].Length; k++)
                     {
-                        Layer1[0].Weights[k] += corrector * inputs[j][k] * error;
+                        adjustment = error * inputs[j][k] * output * (1 - output);
+                        Layer1[0].Weights[k] += adjustment;
                     }
                 }
             }
@@ -78,8 +76,9 @@ namespace LearnNeuroNet1.Model
             {
                 Layer1[i].InputSignals = inputs;
                 Layer1[i].Sum();
+                Layer1[i].ActivationFunc();
                 //вот как выходной результат считать, когда будет больше 1 нейрона на последнем слое, не представляю
-                output += Layer1[i].Output;
+                output = Layer1[i].Output;
             }
 
             return output;
